@@ -65,12 +65,9 @@ export default function CreatePost() {
         onSubmit={handleSubmit}
         className="bg-white rounded-xl p-5 md:p-8 lg:p-10 max-w-5xl mx-auto flex flex-col lg:flex-row gap-6 md:gap-8 lg:gap-10"
       >
-        {/* Сурет бөлігі */}
+        
         <div className="flex flex-col items-center lg:items-start lg:w-1/3">
           <label className="font-medium mb-2 text-gray-700 text-base">Сурет</label>
-          <p className="text-sm text-gray-500 mb-3 text-center lg:text-left">
-            Бір ғана сурет жүктеледі (бетке шығатын сурет).
-          </p>
 
           <div
             className="border rounded-lg w-40 h-40 md:w-48 md:h-48 flex items-center justify-center overflow-hidden bg-gray-100 cursor-pointer"
@@ -94,7 +91,7 @@ export default function CreatePost() {
           />
         </div>
 
-        {/* Input бөлімі */}
+        
         <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           <div className="md:col-span-1">
             <label className="block mb-1 text-gray-700 font-medium">Бөлме саны</label>
