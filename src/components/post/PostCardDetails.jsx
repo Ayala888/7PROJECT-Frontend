@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import { ArrowLeft } from 'lucide-react'; // ← стрелка иконкасы
 
 export default function HomeCardDetails() {
   const { id } = useParams();
@@ -15,9 +16,20 @@ export default function HomeCardDetails() {
 
   return (
     <div className="bg-[#F2F0E4] min-h-screen px-4 sm:px-6 lg:px-8 py-8">
+
+      
+      <div className="max-w-6xl mx-auto mb-6">
+        <a
+          href="/"
+          className="inline-flex items-center text-gray-700 hover:text-black transition text-sm sm:text-base"
+        >
+          <ArrowLeft className="w-5 h-5 mr-2" />
+          Артқа
+        </a>
+      </div>
+
       
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-        
         <div className="flex justify-center">
           <div className="w-full max-w-md h-[220px] sm:h-[250px] md:h-[280px] overflow-hidden rounded-xl shadow-md bg-gray-100">
             <img
@@ -28,7 +40,6 @@ export default function HomeCardDetails() {
           </div>
         </div>
 
-        
         <div className="bg-white p-5 sm:p-6 rounded-xl shadow-md flex flex-col justify-between">
           <div>
             <p className="text-sm text-gray-500 mb-2">
@@ -82,6 +93,7 @@ export default function HomeCardDetails() {
     </div>
   );
 }
+
 
 
 
