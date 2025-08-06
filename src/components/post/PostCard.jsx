@@ -77,6 +77,8 @@ export default function PostCard({ search }) {
       )}
   
       {homes.map((home) => {
+        console.log(home.images);
+        
         const isFavorite = favorites.includes(home.id);
         return (
           <Link
