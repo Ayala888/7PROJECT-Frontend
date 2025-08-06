@@ -85,7 +85,7 @@ export default function PostCard({ search }) {
             className="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition cursor-pointer"
           >
             <img
-              src={`https://sevenproject-frontend-beckend-2.onrender.com/uploads/${home.images?.[0]}`}
+              src={`https://sevenproject-frontend-beckend-2.onrender.com/uploads/${home.images[0]}`}
               alt="үй суреті"
               className="w-full h-[200px] object-cover md:w-[280px] md:h-[200px]"
             />
