@@ -10,9 +10,10 @@ export default function ProfilePage() {
 
       <main className="max-w-5xl mx-auto mt-10 px-4">
   
-        <section className="bg-white rounded-xl shadow-md mb-12 px-4">
-          <UserProfile />
-        </section>
+      <section className="bg-white rounded-xl shadow-md mb-12 p-6 max-w-3xl mx-auto">
+       <UserProfile />
+      </section>
+
 
         
         <section>
