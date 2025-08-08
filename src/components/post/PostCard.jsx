@@ -69,7 +69,7 @@ export default function PostCard({ search }) {
   };
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="bg-[#F2F0E4] min-h-screen px-4 sm:px-6 lg:px-8 py-8">
       <h2 className="text-2xl font-bold text-gray-800 mb-2 mt-6">Хабарландырулар</h2>
   
       {homes.length === 0 && (
