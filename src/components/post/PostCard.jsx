@@ -84,7 +84,7 @@ export default function PostCard({ search }) {
           <Link
             to={`/home/${home.id}`}
             key={home.id}
-            className="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition cursor-pointer"
+            className="flex flex-col sm:flex-row bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition"
           >
             <img
               src={`https://sevenproject-frontend-beckend-2.onrender.com/uploads/${home.images[0]}`}
