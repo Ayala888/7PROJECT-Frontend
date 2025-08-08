@@ -49,7 +49,7 @@ export default function UserPostCard() {
   };
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 px-4">
       {homes.map((home) => (
         <div
           key={home._id || home.id}
