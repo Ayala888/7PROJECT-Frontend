@@ -10,9 +10,14 @@ export default function ProfilePage() {
 
       <main className="max-w-5xl mx-auto mt-10 px-4">
   
-        <section className="bg-white rounded-xl shadow-md mb-12 px-4">
-          <UserProfile />
-        </section>
+      <section className="relative bg-gradient-to-br from-white via-gray-50 to-gray-100 rounded-2xl shadow-lg mb-12 max-w-3xl mx-auto overflow-hidden border border-gray-200">
+       <div className="h-2 bg-gradient-to-r from-orange-400 to-pink-500"></div>
+
+       <div className="p-6 sm:p-8">
+        <UserProfile />
+       </div>
+      </section>
+
 
         
         <section>
